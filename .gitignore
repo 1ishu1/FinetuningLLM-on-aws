@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+
+# Model files
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Training outputs
+outputs/
+checkpoints/
+
+# Logs
+logs/
+
+# Environment/secrets
+.env
+
+# SageMaker
+*.tar.gz
+
